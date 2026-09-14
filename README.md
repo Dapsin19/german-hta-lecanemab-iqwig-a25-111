@@ -1,271 +1,315 @@
 # German HTA Case Study: IQWiG A25-111 — Lecanemab
 
-## Independent Self-Directed Analysis of a German Early Benefit Assessment under §35a SGB V
+### Independent Self-Directed Analysis of a German Early Benefit Assessment under §35a SGB V
 
-This repository presents an independent self-directed analysis of the IQWiG dossier assessment **A25-111: Lecanemab (early Alzheimer's disease)**.
+An applied health technology assessment (HTA) case study examining the German early benefit assessment of **lecanemab** for early Alzheimer's disease.
 
-The case study examines how evidence from a clinical trial is assessed within the German early benefit assessment framework under **§35a SGB V**, with particular focus on:
+The project uses the published **IQWiG A25-111 assessment** to demonstrate practical understanding of German HTA methodology, evidence appraisal, statistical interpretation, and Market Access.
 
-- AMNOG
-- IQWiG
-- G-BA
-- PICO
-- Zweckmäßige Vergleichstherapie (ZVT)
-- Patient-relevant outcomes
-- Evidence mapping
-- Statistical interpretation
-- Risk of bias
-- Benefit-harm assessment
-- Added-benefit conclusions
+> **Educational portfolio project:** This is an independent analysis of publicly available evidence and does not represent professional work for IQWiG, G-BA, a pharmaceutical company, or a Market Access consultancy.
 
-This is an educational portfolio project and is not affiliated with or endorsed by IQWiG, G-BA, Eisai, Biogen, or any other organization involved in the assessment.
+---
+
+## Project Overview
+
+This case study examines how clinical evidence is evaluated within the German **AMNOG / §35a SGB V** early benefit assessment framework.
+
+The analysis focuses on:
+
+* German HTA methodology
+* IQWiG evidence assessment
+* PICO formulation
+* Appropriate comparator therapy (ZVT)
+* Clinical trial evidence
+* Patient-relevant outcomes
+* Relative risks and confidence intervals
+* Risk of bias
+* Evidence uncertainty
+* Benefit–harm assessment
+* Evidence gaps
+* Market Access implications
+
+The project is based primarily on **IQWiG Project A25-111: Lecanemab — Benefit assessment according to §35a SGB V**.
 
 ---
 
 ## Case Study
 
-**Drug:** Lecanemab  
-**Indication:** Early Alzheimer's disease  
-**IQWiG Project:** A25-111  
-**Report:** Lecanemab – Nutzenbewertung gemäß §35a SGB V  
-**Report version:** 1.0  
-**Report date:** 27 November 2025  
-**Publication:** 1 December 2025  
-**DOI:** 10.60584/A25-111  
-**Key clinical study:** CLARITY AD  
-**ClinicalTrials.gov:** NCT03887455
+| Item               | Details                                    |
+| ------------------ | ------------------------------------------ |
+| Medicine           | Lecanemab                                  |
+| Indication         | Early Alzheimer's disease                  |
+| IQWiG project      | A25-111                                    |
+| Assessment         | Benefit assessment according to §35a SGB V |
+| IQWiG report       | Version 1.0                                |
+| Report date        | 27 November 2025                           |
+| Publication        | 1 December 2025                            |
+| Clinical trial     | CLARITY AD                                 |
+| ClinicalTrials.gov | NCT03887455                                |
+| DOI                | 10.60584/A25-111                           |
+| HTA framework      | AMNOG / §35a SGB V                         |
 
 ---
 
-## Research Objective
+## Research Questions
 
-The objective of this case study is to understand how the German HTA framework translates clinical evidence into an assessment of added benefit.
+The assessment considered three main questions.
 
-The analysis focuses on three questions:
+### 1. MCI due to Alzheimer's disease
 
-1. Does lecanemab provide an added benefit compared with the appropriate comparator in patients with mild cognitive impairment due to Alzheimer's disease?
+**Intervention:** Lecanemab
+**Comparator:** Watchful waiting
 
-2. Does lecanemab provide an added benefit when used in addition to acetylcholinesterase inhibitor therapy in patients with mild Alzheimer's dementia?
+### 2. Mild Alzheimer's dementia with background AChEI therapy
 
-3. Is there evidence supporting lecanemab monotherapy compared with acetylcholinesterase inhibitor therapy in patients with mild Alzheimer's dementia?
+**Intervention:** Lecanemab + acetylcholinesterase inhibitor
+**Comparator:** AChEI therapy
 
----
+### 3. Mild Alzheimer's dementia — monotherapy
 
-## German HTA Context
+**Intervention:** Lecanemab
+**Comparator:** Acetylcholinesterase inhibitor therapy
 
-The German early benefit assessment process under §35a SGB V can broadly be understood as:
-
-Marketing authorisation  
-→ Manufacturer submits evidence dossier  
-→ Early benefit assessment  
-→ Scientific assessment by IQWiG  
-→ Commenting procedure / oral hearing  
-→ Formal decision by G-BA  
-→ Subsequent reimbursement and pricing implications
-
-IQWiG provides the scientific assessment. The **G-BA** is responsible for the formal benefit assessment decision.
+The third question illustrates an important HTA evidence gap: a relevant comparative study for lecanemab monotherapy versus the appropriate comparator was not identified.
 
 ---
 
-## PICO Framework
+## HTA Framework
 
-| Component | Case Study |
-|---|---|
-| Population | Adults with early Alzheimer's disease |
-| Intervention | Lecanemab |
-| Comparator | Watchful waiting for MCI; acetylcholinesterase inhibitor therapy for mild dementia |
-| Outcomes | Mortality, morbidity/disease progression, health-related quality of life and adverse events |
+The project follows the logic of a German early benefit assessment:
 
----
+```text
+Marketing authorisation
+        ↓
+Manufacturer evidence dossier
+        ↓
+§35a SGB V early benefit assessment
+        ↓
+IQWiG scientific assessment
+        ↓
+Comments / hearing
+        ↓
+G-BA resolution
+        ↓
+Reimbursement / Market Access implications
+```
 
-## Zweckmäßige Vergleichstherapie (ZVT)
-
-The appropriate comparator is critical to the German benefit assessment.
-
-### MCI due to Alzheimer's disease
-
-The ZVT was:
-
-**Watchful waiting (beobachtendes Abwarten)**
-
-### Mild Alzheimer's dementia
-
-The ZVT was:
-
-**Acetylcholinesterase inhibitor therapy**
-
-including:
-
-- Donepezil
-- Galantamine
-- Rivastigmine
-
-The relevant clinical evidence therefore had to be examined in a population and treatment setting corresponding to the German comparator.
+The case study focuses primarily on the scientific evidence-assessment component.
 
 ---
 
-## Evidence Source
+## Key HTA Concepts Applied
 
-The primary evidence source for this case study is the IQWiG assessment of lecanemab under §35a SGB V.
+### §35a SGB V
 
-The main clinical trial considered was **CLARITY AD**.
+The German legal framework for the early benefit assessment of medicines.
 
-However, the overall trial population does not automatically answer the German HTA question.
+### IQWiG
 
-The analysis therefore focuses on the relevant subpopulations corresponding to the German ZVT.
+The Institute for Quality and Efficiency in Health Care, which conducts scientific assessments on behalf of the G-BA in areas including pharmaceutical benefit assessment.
 
----
+### G-BA
 
-## Evidence Mapping
+The Federal Joint Committee, responsible for the formal decision on the added benefit of medicines within the German statutory health insurance system.
 
-### Research Question 1
+### PICO
 
-**MCI due to Alzheimer's disease**
+The evidence question is structured around:
 
-Lecanemab  
-vs  
-Watchful waiting
+* **Population**
+* **Intervention**
+* **Comparator**
+* **Outcomes**
 
-The relevant evidence was derived from patients corresponding to the specified comparator setting.
+### ZVT
 
----
-
-### Research Question 2
-
-**Mild Alzheimer's dementia**
-
-Lecanemab + acetylcholinesterase inhibitor  
-vs  
-Placebo + acetylcholinesterase inhibitor
-
-The relevant subgroup consisted of patients receiving acetylcholinesterase inhibitor therapy at baseline.
+The **zweckmäßige Vergleichstherapie**, or appropriate comparator therapy, is central to the German benefit assessment.
 
 ---
 
-### Research Question 3
+## Evidence Analysis
 
-**Mild Alzheimer's dementia**
+The project maps the relevant evidence to the German research questions rather than relying only on the overall clinical trial population.
 
-Lecanemab monotherapy  
-vs  
-Acetylcholinesterase inhibitor therapy
+Examples of outcomes examined include:
 
-IQWiG identified no relevant study directly answering this comparison.
+* CDR-SB
+* ADAS-Cog14
+* EQ-5D VAS
+* QOL-AD
+* Symptomatic ARIA
+* Infusion-related reactions
 
-Therefore, an added-benefit assessment for this treatment situation could not be established on the basis of relevant comparative evidence.
-
----
-
-## Critical Appraisal
-
-The analysis evaluates the evidence across several dimensions:
-
-### 1. Comparator Alignment
-
-A positive result in the overall clinical trial population does not necessarily demonstrate added benefit within the German HTA framework.
-
-The comparator must correspond to the defined ZVT.
+The analysis considers both efficacy and safety.
 
 ---
 
-### 2. Statistical Evidence
+## Statistical Interpretation
 
-The relevant ZVT-conforming efficacy and quality-of-life analyses did not demonstrate a statistically significant advantage for lecanemab over the appropriate comparator.
+Relative risks (RRs) and confidence intervals are used to interpret selected outcomes.
 
-Confidence intervals were also considered when interpreting the precision of the estimates.
+For example:
 
----
+| Outcome                  |     Effect estimate |
+| ------------------------ | ------------------: |
+| CDR-SB deterioration     | RR 0.80 [0.53–1.20] |
+| ADAS-Cog14 deterioration | RR 0.63 [0.35–1.14] |
+| EQ-5D VAS deterioration  | RR 0.66 [0.37–1.16] |
+| QOL-AD deterioration     | RR 0.56 [0.27–1.14] |
 
-### 3. Safety
+The analysis emphasizes that a favourable point estimate does not automatically establish an added benefit.
 
-The assessment also considers adverse events.
-
-Infusion-related reactions occurred substantially more frequently with lecanemab in the relevant analyses.
-
-This demonstrates why an HTA assessment cannot focus exclusively on efficacy.
-
----
-
-### 4. Risk of Bias
-
-IQWiG assessed the relevant analyses as having a high risk of bias.
-
-Potential methodological limitations included issues relating to treatment modifications, disease progression and treatment discontinuation.
+Confidence intervals, methodological limitations, population relevance, comparator alignment, and clinical relevance must also be considered.
 
 ---
 
-### 5. Evidence Gaps
+## Risk of Bias
 
-The absence of a relevant study comparing lecanemab monotherapy with the appropriate comparator is an important evidence gap.
+IQWiG assessed the risk of bias for the relevant analyses as **high**.
 
-This is different from demonstrating that lecanemab is ineffective.
+The case study considers methodological issues including:
 
-It means that a relevant comparative added-benefit assessment cannot be established from the available evidence.
+* treatment modifications;
+* disease progression;
+* treatment discontinuation;
+* missing or potentially informative observations;
+* and the resulting uncertainty around estimated treatment effects.
 
----
+This demonstrates an important HTA principle:
 
-## Overall Conclusion
-
-For the relevant research questions, IQWiG concluded that an added benefit of lecanemab was **not proven**.
-
-The assessment illustrates an important principle of German Market Access:
-
-> Clinical trial results must be interpreted within the specific population, comparator and outcome framework required by the German HTA process.
-
-A statistically positive result in a broader trial population does not automatically translate into a proven added benefit under §35a SGB V.
+> A numerical treatment effect must be interpreted together with the credibility and limitations of the evidence producing it.
 
 ---
 
-## Key Lessons
+## IQWiG Conclusion
 
-This case study demonstrates practical understanding of:
+For the relevant research questions, IQWiG concluded that **added benefit was not proven**.
 
-- German early benefit assessment
-- §35a SGB V
-- AMNOG
-- IQWiG methodology
-- G-BA decision-making
-- PICO formulation
-- ZVT identification
-- Evidence mapping
-- Subgroup analysis
-- Risk of bias
-- Statistical interpretation
-- Patient-relevant outcomes
-- Benefit-harm assessment
-- Evidence gaps and uncertainty
+This does not mean that the clinical trial demonstrated that lecanemab had no biological or clinical effect.
+
+Rather, within the specific German HTA framework, the relevant evidence did not establish an added benefit against the appropriate comparator for the assessed populations.
+
+For the monotherapy question, relevant comparative evidence was not available.
 
 ---
 
-## Relevance to Market Access
+## Market Access Lessons
 
-This project demonstrates independent practical application of concepts relevant to junior Market Access consulting, including:
+The case demonstrates why Market Access analysis requires more than reporting clinical trial results.
 
-- Literature and evidence analysis
-- Scientific writing
-- HTA methodology
-- German reimbursement framework
-- Clinical evidence interpretation
-- Statistical reasoning
-- Critical appraisal
-- Evidence-based communication
+Key lessons include:
+
+1. **Comparator alignment is critical.**
+2. **Trial populations must be relevant to the reimbursement question.**
+3. **Patient-relevant outcomes must be interpreted carefully.**
+4. **Effect estimates must be considered together with confidence intervals and uncertainty.**
+5. **Risk of bias affects confidence in evidence.**
+6. **Safety must be considered alongside efficacy.**
+7. **Evidence gaps can create Market Access risks.**
+8. **German HTA requirements should be considered during evidence planning, not only at submission stage.**
 
 ---
 
-## Disclaimer
+## Repository Structure
 
-This is an independent self-directed educational case study based on publicly available information.
+```text
+german-hta-lecanemab-iqwig-a25-111/
+│
+├── README.md
+│
+├── analysis/
+│   ├── README.md
+│   ├── 01_hta_context.md
+│   ├── 02_pico_and_zvt.md
+│   ├── 03_evidence_mapping.md
+│   ├── 04_critical_appraisal.md
+│   ├── 05_hta_evidence_summary.md
+│   ├── 06_statistical_interpretation.md
+│   ├── 07_risk_of_bias.md
+│   ├── 08_iqwig_conclusion.md
+│   └── 09_market_access_takeaways.md
+│
+├── data/
+│   ├── README.md
+│   └── evidence_table.csv
+│
+└── references/
+    └── sources.md
+```
 
-It is not professional consulting experience and does not represent work performed for IQWiG, G-BA, Eisai, Biogen or any other organization.
+---
 
-All conclusions regarding the original assessment are intended to accurately reflect the published IQWiG documentation.
+## Skills Demonstrated
+
+### HTA / Market Access
+
+* German AMNOG framework
+* §35a SGB V
+* IQWiG methodology
+* G-BA process
+* Appropriate comparator therapy (ZVT)
+* PICO
+* Evidence mapping
+* Patient-relevant outcomes
+* Benefit–harm assessment
+* Evidence-gap identification
+
+### Evidence & Data Analysis
+
+* Clinical evidence interpretation
+* Literature analysis
+* Risk-of-bias assessment
+* Relative risk interpretation
+* Confidence intervals
+* Statistical uncertainty
+* Structured evidence extraction
+* Reproducible evidence tables
+
+### Scientific Communication
+
+* Scientific writing
+* Evidence synthesis
+* Structured analytical reporting
+* Technical documentation
+* English-language communication
+
+---
+
+## Why I Built This Project
+
+My academic background combines **public health and data science**, and I am interested in the intersection of healthcare evidence, data analysis, digital health, and evidence-based decision-making.
+
+This case study was developed to build practical knowledge of **German HTA and Market Access methodology** using a real publicly available IQWiG assessment.
+
+It demonstrates how clinical evidence can be translated into a structured assessment of:
+
+**population → comparator → outcomes → statistical evidence → uncertainty → benefit–harm → Market Access implications**
 
 ---
 
 ## Primary Sources
 
-- IQWiG Project A25-111
-- IQWiG A25-111 assessment report
-- IQWiG A26-01 addendum
-- G-BA documentation relating to the benefit assessment
-- ClinicalTrials.gov — NCT03887455
+The analysis is based primarily on official publications from:
+
+* IQWiG
+* G-BA
+* ClinicalTrials.gov
+* IQWiG methodological publications
+
+See [`references/sources.md`](references/sources.md) for the complete source list.
+
+---
+
+## Disclaimer
+
+This repository is an **independent educational portfolio project**.
+
+It is not:
+
+* an official IQWiG assessment;
+* an official G-BA document;
+* professional Market Access consulting work;
+* a pharmaceutical-company submission;
+* or evidence of employment or professional experience at IQWiG or G-BA.
+
+All conclusions attributed to IQWiG are based on the publicly available source documents cited in this repository.
