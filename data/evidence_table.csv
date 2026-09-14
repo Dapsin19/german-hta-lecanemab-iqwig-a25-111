@@ -1,18 +1,17 @@
-| Research question                | Outcome                    | Lecanemab | Comparator | Effect estimate                        | Interpretation                                                         |
-| -------------------------------- | -------------------------- | --------: | ---------: | -------------------------------------- | ---------------------------------------------------------------------- |
-| **MCI due to AD**                | CDR-SB deterioration       |         — |          — | No statistically significant advantage | No added benefit established                                           |
-| **MCI due to AD**                | ADAS-Cog14 deterioration   |         — |          — | RR 0.86 [0.39–1.89], p=0.705           | No statistically significant advantage                                 |
-| **MCI due to AD**                | EQ-5D VAS deterioration    |         — |          — | RR 1.02 [0.67–1.55], p=0.923           | No statistically significant advantage                                 |
-| **MCI due to AD**                | QOL-AD deterioration       |         — |          — | RR 1.00 [0.57–1.78], p=0.992           | No statistically significant advantage                                 |
-| **MCI due to AD**                | Mortality                  |         — |          — | RR 0.14 [0.01–2.68], p=0.080           | Very imprecise; no statistically significant difference                |
-| **MCI due to AD**                | Infusion-related reactions |         — |          — | RR 3.43 [2.13–5.53], p<0.001           | Statistically significant harm                                         |
-| **Mild AD dementia + AChEI**     | CDR-SB deterioration       |    28/103 |     39/115 | RR 0.84 [0.56–1.27], p=0.410           | No statistically significant advantage                                 |
-| **Mild AD dementia + AChEI**     | ADAS-Cog14 deterioration   |     14/99 |     26/111 | RR 0.63 [0.35–1.14], p=0.130           | No statistically significant advantage                                 |
-| **Mild AD dementia + AChEI**     | EQ-5D VAS deterioration    |    16/103 |     25/113 | RR 0.66 [0.38–1.17], p=0.155           | No statistically significant advantage                                 |
-| **Mild AD dementia + AChEI**     | QOL-AD deterioration       |    10/104 |     19/113 | RR 0.56 [0.28–1.15], p=0.115           | No statistically significant advantage                                 |
-| **Mild AD dementia + AChEI**     | Mortality                  |     1/139 |      1/138 | RR 0.99 [0.06–15.71], p>0.999          | Extremely imprecise; no difference demonstrated                        |
-| **Mild AD dementia + AChEI**     | Serious AEs                |    20/139 |     14/138 | RR 1.42 [0.75–2.70], p=0.293           | No statistically significant difference                                |
-| **Mild AD dementia + AChEI**     | Discontinuation due to AEs |    10/139 |      4/138 | RR 2.48 [0.80–7.73], p=0.126           | No statistically significant difference                                |
-| **Mild AD dementia + AChEI**     | Symptomatic ARIA           |     7/139 |      1/138 | RR 6.95 [0.87–55.74], p=0.034          | Safety signal; statistically significant according to reported p-value |
-| **Mild AD dementia + AChEI**     | Infusion-related reactions |    32/139 |     10/138 | RR 3.18 [1.63–6.21], p<0.001           | Statistically significant harm                                         |
-| **Mild AD dementia monotherapy** | Added benefit              |         — |      AChEI | No relevant study                      | Added benefit not assessable                                           |
+research_question,outcome,intervention,comparator,effect_estimate,interpretation
+"MCI due to AD","CDR-SB deterioration","Lecanemab","Watchful waiting","No statistically significant advantage","No added benefit established"
+"MCI due to AD","ADAS-Cog14 deterioration","Lecanemab","Watchful waiting","RR 0.86 [0.39–1.89], p=0.705","No statistically significant advantage"
+"MCI due to AD","EQ-5D VAS deterioration","Lecanemab","Watchful waiting","RR 1.02 [0.67–1.55], p=0.923","No statistically significant advantage"
+"MCI due to AD","QOL-AD deterioration","Lecanemab","Watchful waiting","RR 1.00 [0.57–1.78], p=0.992","No statistically significant advantage"
+"MCI due to AD","Mortality","Lecanemab","Watchful waiting","RR 0.14 [0.01–2.68], p=0.080","Very imprecise; no statistically significant difference"
+"MCI due to AD","Infusion-related reactions","Lecanemab","Watchful waiting","RR 3.43 [2.13–5.53], p<0.001","Statistically significant harm"
+"Mild AD dementia + AChEI","CDR-SB deterioration","Lecanemab + AChEI","Placebo + AChEI","RR 0.84 [0.56–1.27], p=0.410","No statistically significant advantage"
+"Mild AD dementia + AChEI","ADAS-Cog14 deterioration","Lecanemab + AChEI","Placebo + AChEI","RR 0.63 [0.35–1.14], p=0.130","No statistically significant advantage"
+"Mild AD dementia + AChEI","EQ-5D VAS deterioration","Lecanemab + AChEI","Placebo + AChEI","RR 0.66 [0.38–1.17], p=0.155","No statistically significant advantage"
+"Mild AD dementia + AChEI","QOL-AD deterioration","Lecanemab + AChEI","Placebo + AChEI","RR 0.56 [0.28–1.15], p=0.115","No statistically significant advantage"
+"Mild AD dementia + AChEI","Mortality","Lecanemab + AChEI","Placebo + AChEI","RR 0.99 [0.06–15.71], p>0.999","Extremely imprecise; no difference demonstrated"
+"Mild AD dementia + AChEI","Serious adverse events","Lecanemab + AChEI","Placebo + AChEI","RR 1.42 [0.75–2.70], p=0.293","No statistically significant difference"
+"Mild AD dementia + AChEI","Discontinuation due to adverse events","Lecanemab + AChEI","Placebo + AChEI","RR 2.48 [0.80–7.73], p=0.126","No statistically significant difference"
+"Mild AD dementia + AChEI","Symptomatic ARIA","Lecanemab + AChEI","Placebo + AChEI","RR 6.95 [0.87–55.74], p=0.034","Safety signal"
+"Mild AD dementia + AChEI","Infusion-related reactions","Lecanemab + AChEI","Placebo + AChEI","RR 3.18 [1.63–6.21], p<0.001","Statistically significant harm"
+"Mild AD dementia monotherapy","Added benefit","Lecanemab","AChEI","No relevant study","Added benefit not assessable"
